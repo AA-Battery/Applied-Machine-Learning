@@ -1,4 +1,4 @@
 # Applied-Machine-Learning
 
-[Exercise_1](exercise1.md)
-[Exercise_2](exercise2.md)
+1. [Exercise_One](exercise1.md)
+2. [Exercise_Two](exercise2.md)
