@@ -29,7 +29,7 @@ The loss function determines the inaccuracy of the model on a given epoch. The o
   
   ![Probability_Array_For_9](D_mnist_9.png)
   
-  ![Probability_Array_For_Many](D_mnist_matix.png)
+  ![Probability_Array_For_Many](D_mnist_matrix.png)
   
   
 
