@@ -1,5 +1,3 @@
-# Answers to prompts:
-
 ### According to Maroney, what is the difference between traditional programming and machine learning?
 
 Traditional programming involves inputing rules and data into a machine to produce answers. However, machine learning restructures this relationship. Machine learning involes inputing data and answers into a machine to produce rules. This means that the programmer does not need to establish the rules themselves. 
