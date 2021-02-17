@@ -1,19 +1,19 @@
 ### Apply three filters to image:
 
-##### Here is the original image:
-![Original Image](orignal.png)
+#### Here is the original image:
+![Original Image](original.png)
 
-##### Here is the image convolved with filter one:
+#### Here is the image convolved with filter one:
 ![Convolution One](conv_1.png)
 
 This filter highlighted (detected) the background diagonal lines in the image.
 
-##### Here is the image convolved with filter two:
+#### Here is the image convolved with filter two:
 ![Convolution Two](conv_2.png)
 
 This filter highlighted (detected) the vertical lines in the image. 
 
-##### Here is the image convolved with filter three:
+#### Here is the image convolved with filter three:
 ![Convolution Three](conv_3.png)
 
 This filter highlighted (detected) the horizontal lines in the image. 
@@ -24,7 +24,7 @@ Each filter has three sets of arrays with three integers in each. Each integer i
 
 ### Apply 2x2 pooling filter to image:
 
-##### Here is the image convoled with filter three and pooled with a filter of dimension 2x2:
+#### Here is the image convoled with filter three and pooled with a filter of dimension 2x2:
 ![Pooled Image](conv_3_pooled.png)
 
 ### What have you accomplished with pooling? Which type of filter pooling is applied? Did the result increase or decrease in size?
