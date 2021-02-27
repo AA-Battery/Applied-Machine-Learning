@@ -24,5 +24,5 @@ The purpose of performing this convolution is to highlight certain features in t
 
 ### Why would we include more than one filter? How many filters did you assign as part of your architecture when training a model to learn images of numbers from the mnist dataset?
 
-Using more than one filter simply allows the network to detect more features. One filter may be effective at highlighting vertical lines, while another filter is effective at highlighting horizontal lines for example. 
+Using more than one filter simply allows the network to detect more features. One filter may be effective at highlighting vertical lines, while another filter is effective at highlighting horizontal lines for example. The architecture of the network used for the nmist dataset included two fully-connected dense layers. 
 
