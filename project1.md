@@ -18,16 +18,14 @@ The first line of code reads the CSV into a Pandas Dataframe. The second line of
 
 Adam Optimizer - Loss Graph  |  SGD Optimizer - Loss Graph
 :-------------------------:|:-------------------------:
-<img src="adam_loss_graph.png" width="200"> | <img src="sgd_loss_graph.png" width="200">
-
-![Adam Optimizer - Loss Graph](adam_loss_graph.png) |  ![SGD Optimizer - Loss Graph](sgd_loss_graph.png)
+<img src="adam_loss_graph.png" width="350"> | <img src="sgd_loss_graph.png" width="350">
 
 
 ### Here is a graphical comparison of Adam and SGD optimizers impact on the model's predicted price: 
 
 Adam Optimizer - Price Scatter Plot  |  SGD Optimizer - Price Scatter Plot
 :-------------------------:|:-------------------------:
-![Adam Optimizer - Price Scatter Plot](adam_price_scatter.png)  |  ![SGD Optimizer - Price Scatter Plot](sgd_price_scatter.png)
+<img src="adam_price_scatter.png" width="350"> | <img src="sgd_price_scatter.png" width="350">
 
 Based on these outputs, it looks as though the two optimizers performed equivalently. This was most likely due to the complexity of the target function and the relative simplicity of the model. As a result of this, variance in the optimizer had little to no impact on output improvement. This would likely start to impact the effectiveness of the output with a more complex model. One interesting variation between the two optimizers was Adam's initial poor loss performance, and quick improvement. SGD on the other hand started with a lower loss and improved only minorily, if at all. Both optimizers completed 500 epochs with approximately the same loss value. In addition to this, it appears as though Adam produced a more densely clustered price prediction output than SGD. SGD had more outliers towards the bottom and far right of the scatter plot.
 
