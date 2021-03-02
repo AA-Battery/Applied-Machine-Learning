@@ -25,7 +25,7 @@ Adam Optimizer - Price Scatter Plot           |  SGD Optimizer - Price Scatter P
 :-------------------------:|:-------------------------:
 ![Adam Optimizer - Price Scatter Plot](adam_price_scatter.png)  |  ![SGD Optimizer - Price Scatter Plot](sgd_price_scatter.png)
 
-
+Based on these outputs, it looks as though the two optimizers performed eqivilently. This was most likely due to the complexity of the target function and the reletive simplicity of the model. As a result of this, variance in the optimizer had little to do output improvement. This would likely start to impact the effectiveness of the output with a more complex model. One interesting variation between the two optimizers was Adam's initial poor loss performance, and quick improvement. SGD on the other hand started with a lower loss and improved only minorily, if at all. Both optimizers completed 500 epochs with approximately the same loss value.
 
 
 
