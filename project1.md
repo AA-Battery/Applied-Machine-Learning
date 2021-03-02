@@ -13,17 +13,21 @@ The preprocessing of the data after scraping from Zillow was the most challengin
 
 The first line of code reads the csv into a pandas dataframe. The second line of code converts the 'square-footage' column in the dataframe to int values. The " errors='coerce' " arguement in the second line makes the 10 data points that could not be cast to numeric values into 'NaN' values. The third line of code calculates the mean value of 'square-footage' for all of the data in the dataframe. The fourth and final line of code replaces the 10 'NaN' values created in line two of the code, into the mean 'square-footage' value of the data. This was done because the network was unable to train on data with 'NaN' values. While replacing the 'NaN' values with the mean likely skewed the data somewhat, it was the only way that the network could successfully train on all 400 observations. I used the mean value of 'square-footage' because it would best mitigate any inaccuracies resulting from this augmentation. 
 
-Here is a graphical comparison of Adam and SGD. 
+Here is a graphical comparison of Adam and SGD optimizers impact on the loss of the model: 
 
-olarized dark             |  Solarized Ocean
+Adam Optimizer - Loss Graph           |  SGD Optimizer - Loss Graph
 :-------------------------:|:-------------------------:
 ![Adam Optimizer - Loss Graph](adam_loss_graph.png)  |  ![SGD Optimizer - Loss Graph](sgd_loss_graph.png)
 
+Here is a graphical comparison of Adam and SGD optimizers impact on the model's predicted price: 
+
+Adam Optimizer - Price Scatter Plot           |  SGD Optimizer - Price Scatter Plot
+:-------------------------:|:-------------------------:
+![Adam Optimizer - Price Scatter Plot](adam_price_scatter.png)  |  ![SGD Optimizer - Price Scatter Plot](sgd_price_scatter.png)
 
 
 
-![Adam Optimizer - Price Scatter Plot](adam_price_scatter.png)
-![SGD Optimizer - Price Scatter Plot](sgd_price_scatter.png)
+
 
 Raw : The Mean Squared Error is:  712637506427.6313
 SS : The Mean Squared Error is:  711190659063.013
