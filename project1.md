@@ -18,7 +18,7 @@ The first line of code reads the CSV into a Pandas Dataframe. The second line of
 
 Adam Optimizer - Loss Graph  |  SGD Optimizer - Loss Graph
 :-------------------------:|:-------------------------:
-![Adam Optimizer - Loss Graph](adam_loss_graph.png | width=50)  |  ![SGD Optimizer - Loss Graph](sgd_loss_graph.png | width=50)
+![Adam Optimizer - Loss Graph](adam_loss_graph.png, figsize = (20,20))  |  ![SGD Optimizer - Loss Graph](sgd_loss_graph.png, figsize = (20,20))
 
 
 ### Here is a graphical comparison of Adam and SGD optimizers impact on the model's predicted price: 
