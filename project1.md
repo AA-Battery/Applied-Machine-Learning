@@ -18,7 +18,7 @@ The first line of code reads the CSV into a Pandas Dataframe. The second line of
 
 Adam Optimizer - Loss Graph  |  SGD Optimizer - Loss Graph
 :-------------------------:|:-------------------------:
-<img src="adam_loss_graph.png" width="500"> | <img src="sgd_loss_graph.png" width="500">
+<img src="adam_loss_graph.png" width="200"> | <img src="sgd_loss_graph.png" width="200">
 
 ![Adam Optimizer - Loss Graph](adam_loss_graph.png) |  ![SGD Optimizer - Loss Graph](sgd_loss_graph.png)
 
