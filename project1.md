@@ -31,7 +31,7 @@ Based on these outputs, it looks as though the two optimizers performed equivale
 
 Here is the ranking of the of the house sales in Austin:
 
-![House Rankings](answer.csv)
+[House Rankings](answer.csv)
 
 The ranking was determined by taking the absolute value of the difference between the network's predicted value and Zillow's listed value. 
 
