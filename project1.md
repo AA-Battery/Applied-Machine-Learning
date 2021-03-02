@@ -33,7 +33,7 @@ Here is the ranking of the of the house sales in Austin:
 
 [House Rankings](answer.csv)
 
-The ranking was determined by taking the absolute value of the difference between the network's predicted value and Zillow's listed value. 
+The ranking was determined by taking the absolute value of the difference between the network's predicted value and Zillow's listed value. The linked CSV is sorted based on best deal (lowest  
 
 Raw : The Mean Squared Error is:  712637506427.6313
 SS : The Mean Squared Error is:  711190659063.013
