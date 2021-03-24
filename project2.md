@@ -32,7 +32,7 @@ The figure below is a histogram of the age feature:
 
 The figure below illustrates the value counts of the wealth feature:
 
-![Wealth Feature Value Counts](py_wealth_value_counts.py)
+![Wealth Feature Value Counts](py_wealth_value_counts.png)
 
 This was the final result from the model:
 
