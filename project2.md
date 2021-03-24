@@ -16,13 +16,13 @@ The random forest models performed similiarly to the logistic regression models 
 
 The figure below illustrates the effect of minimal node size with randomly selected predictors.
 
-![Node Size](rf_res)
+![Node Size](rf_res.png)
 
 The table below contains two figures demonstrating the effectiveness of the final random forest model. The final model slightly reduced the area under the curve from the first set of models. The bar chart on the right side of the table illustrates the importance each individual feature has on the predictive power of the final random forest model. The feature that was most important was age, followed by size, education and least important sex. 
 
 Final Random Forest Fit  |  Importance of Features Contribution To Predictive Power of Random Forest Model
 :-------------------------:|:-------------------------:
-<img src="last_rf_auc_fit.png" width="350"> | <img src="last_rf_fit.png" width="350">
+<img src="last_rf_fit_auc.png" width="350"> | <img src="last_rf_fit.png" width="350">
 
 # Logistic Regression - Tensorflow
 
