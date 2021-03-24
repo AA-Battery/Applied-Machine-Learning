@@ -45,7 +45,7 @@ The histogram below illustrates the predicted probabilities for the model. As se
 
 # Gradient Boosting Model - Tensorflow
 
-The figure below is the ROC curve for my logistic regression model using tensorflow. As is expected from a functioning predictive model, this graph illustrates that my model is returning a higher true positive rate than a false positive rate. Therefore it is correctly classifying inputs more often than it is inncorrectly classifying them.
+The figure below is the ROC curve for my gradient boosting model using tensorflow. As is expected from a functioning predictive model, this graph illustrates that my model is returning a higher true positive rate than a false positive rate. Therefore it is correctly classifying inputs more often than it is inncorrectly classifying them.
 
 ![ROC Curve](py_roc_curve.png)
 
@@ -59,3 +59,4 @@ This was the final result from the model:
 
 # Results
 
+The most effective model was the gradient boosting model. It had an accruacy of 75.23% which was the highest of the four models. It appeared as though the most important feature in predicting wealth was age. The least important was sex. This was true across all four models. All of the models were very similiar in thier outcomes. 
