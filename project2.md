@@ -12,7 +12,7 @@ Based on this figure, the model with the largest area under curve was model one.
 
 The random forest models performed similiarly to the logistic regression models based on the area under the curve. This is illustrated in the figure above. The figure below overlays the area under curve for the five models for the random forest and logistic regression models. This further emphasizes their similiar performance. 
 
-![Area Under Curve Overlay RF & LR](rf_lc_auc.png)
+![Area Under Curve Overlay RF & LR](rf_lr_auc.png)
 
 The figure below illustrates the effect of minimal node size with randomly selected predictors.
 
