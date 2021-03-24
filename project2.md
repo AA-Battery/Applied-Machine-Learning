@@ -14,7 +14,7 @@ The random forest models performed similiarly to the logistic regression models 
 
 ![Area Under Curve Overlay RF & LR](rf_lr_auc.png)
 
-The figure below illustrates the effect of minimal node size with randomly selected predictors.
+The figure below illustrates the effect of minimal node size with randomly selected predictors for the random forest model.
 
 ![Node Size](rf_res.png)
 
@@ -26,11 +26,11 @@ Final Random Forest Fit  |  Importance of Features Contribution To Predictive Po
 
 # Logistic Regression - Tensorflow
 
-The figure below is a histogram of the age feature:
+The figure below is a histogram of the age feature. The data is very 'left' heavy, indicating a much higher density of data points with a younger age.
 
 ![Age Histogram](py_age_hist.png)
 
-The figure below illustrates the value counts of the wealth feature:
+The figure below illustrates the value counts of the wealth feature. As should be expected, the population of data points decreases as wealth increases. 
 
 ![Wealth Feature Value Counts](py_wealth_value_counts.png)
 
