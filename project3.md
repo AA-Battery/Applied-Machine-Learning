@@ -8,7 +8,7 @@ Population Plot - Random Forest  |  Population Plot - Linear Regression
 <img src="pop_sum_2.png" width="350"> | <img src="pop_plot.png" width="350">
 
 
- - Random Forest  |  Variance - Random Forest
+Trees V. Error Plot - Random Forest  |  Variable Importance Plot - Random Forest
 :-------------------------:|:-------------------------:
 <img src="rf_plot.png" width="350"> | <img src="varImp_plot.png" width="350">
 
