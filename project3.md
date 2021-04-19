@@ -13,11 +13,11 @@ Trees V. Error Plot - Random Forest  |  Variable Importance Plot - Random Forest
 <img src="rf_plot.png" width="350"> | <img src="varImp_plot.png" width="350">
 
 
-![Map One](livemap_1.1.png)
-![Map One](livemap_1.2.png)
-![Map One](livemap_1.3.png)
+Raster Visualization Angle One - Linear Regression  |  Raster Visualization Angle Two - Linear Regression
+:-------------------------:|:-------------------------:
+<img src="livemap_1.1.png" width="350"> | <img src="livemap_1.2.png" width="350">
 
-![Map Two](livemap_2.1.png)
-![Map Two](livemap_2.2.png)
-![Map Two](livemap_2.3.png)
-![Map Two](livemap_2.4.png)
+
+Raster Visualization Angle One - Random Forest  |  Raster Visualization Angle Two - Random Forest
+:-------------------------:|:-------------------------:
+<img src="livemap_2.1.png" width="350"> | <img src="livemap_2.2.png" width="350">
