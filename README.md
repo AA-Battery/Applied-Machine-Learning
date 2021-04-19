@@ -9,3 +9,4 @@
 ### Projects
 1. [Project One](project1.md)
 2. [Project Two](project2.md)
+3. [Project Three](project3.md)
