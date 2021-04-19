@@ -1,5 +1,5 @@
 ![Different Sum Populations Two](diff_sum_pop_2.png)
-![Different Sum Populations](diff_sum_pop.png)
+![Different Sum Populations](diff_sums_pop.png)
 ![Population Plot](pop_plot.png)
 ![Population Sum Two](pop_sum_2.png)
 ![Random Forest Plot](rf_plot.png)
