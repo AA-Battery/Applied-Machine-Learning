@@ -5,6 +5,7 @@
 2. [Exercise Two](exercise2.md)
 3. [Exercise Three](exercise3.md)
 4. [Exercise Four](exercise4.md)
+5. [Exercise Five](exercise5.md)
 
 ### Projects
 1. [Project One](project1.md)
