@@ -4,7 +4,7 @@ Below are the heatmaps I created:
 
 Heat Map of Raw Data  |  Heat Map of Standardized Data
 :-------------------------:|:-------------------------:
-<img src="raw.png" width="350"> | <img src="standardized.png" width="350">
+<img src="raw.png" width="350"> | <img src="standarized.png" width="350">
 
 Heat Map of Normalized Data  |  Heat Map of Percentized Data
 :-------------------------:|:-------------------------:
