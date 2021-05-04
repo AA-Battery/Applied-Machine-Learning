@@ -1,4 +1,4 @@
-I created four different heat maps using DHS data from Ghana. I produced heat maps for the raw, standardized, normalized, and percentized data.
+I created four different heat maps using DHS data from Ghana. The variables I am mapping are: size, gender, age, education and wealth. I produced heat maps for the raw, standardized, normalized, and percentized data.
 
 Below are the heatmaps I created:
 
